@@ -7,7 +7,7 @@ import Nav from "../nav/nav";
 
 export default function Header() {
   return (
-    <header className="flex justify-between py-3 px-4 bg-slate-400 shadow-xl">
+    <header className="flex justify-between py-3 px-4 bg-slate-900 text-slate-200 shadow-xl">
       <Link to="/">
         <span> مركز الكتاب</span>
       </Link>
