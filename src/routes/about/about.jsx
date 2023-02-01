@@ -1,15 +1,21 @@
 import React from "react";
 import HighlightText from "../../components/highlight-text/highlight-text.jsx";
+import Main from "../../components/main/main.jsx";
 
 export default function About() {
   return (
-    <main className="px-4">
+    <Main className="px-4">
+      <h1 className="text-3xl md:text-4xl text-center font-semibold ">
+        الأسئلة الأكثر شيوعاً
+      </h1>
       <Wrapper>
         <Question>من نحن؟</Question>
         <Answer>
-          نحن مركز مختص بتعليم وتحفيظ القرآن الكريم والسنة النبوية. في
-          <HighlightText> مخيم النصيرات </HighlightText>
-          وسط قطاع غزة.
+          مؤسسة
+          <HighlightText> قرآنية </HighlightText>
+          غير ربحية لا تتبنى أي فكر سياسي او تنظيمي، متخصصة في خدمة كتاب الله
+          تعالى، تم تأسيسها عام [1444 هجرية - 2000 ميلادي]، تقع في{" "}
+          <HighlightText>النصيرات</HighlightText> وسط قطاع غزة.
         </Answer>
       </Wrapper>
       <Wrapper>
@@ -29,18 +35,22 @@ export default function About() {
           العمرية الدنيا بهدف تعليمهم وتحفيظهم القرآن الكريم بالتلقين.{" "}
         </Answer>
       </Wrapper>
-    </main>
+    </Main>
   );
 }
 
 const Wrapper = ({ children }) => (
-  <div className="px-3 mx-4 py-6 my-8 bg-white shadow-md rounded-md max-w-lg mx-auto">
+  <div className="px-3 py-6 my-8 bg-slate-50 shadow-md rounded-md ">
     {children}
   </div>
 );
 
 const Question = ({ children }) => (
-  <h2 className="text-slate-900 text-xl font-semibold mb-3">{children}</h2>
+  <h2 className="text-slate-900 text-xl md:text-2xl font-semibold mb-3">
+    {children}
+  </h2>
 );
 
-const Answer = ({ children }) => <p className="text-lg">{children}</p>;
+const Answer = ({ children }) => (
+  <p className="text-lg md:text-xl">{children}</p>
+);

@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 export default function Nav() {
   return (
     <nav>
-      <ul className="flex justify-center gap-4">
+      <ul className="flex justify-center gap-4 md:pl-24">
         <Link to="/about">من نحن</Link>
         <Link to="/contact">تواصل معنا</Link>
       </ul>
