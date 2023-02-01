@@ -6,9 +6,9 @@
 
 body {
   font-family: "Baloo Bhaijaan 2", cursive;
-  @apply text-slate-700 bg-slate-200 min-h-screen;
   background-image: url("../public/pattern.svg");
   background-blend-mode: darken;
+  @apply text-slate-700 bg-slate-200 min-h-screen sm:bg-none;
 }
 
 a.active {
