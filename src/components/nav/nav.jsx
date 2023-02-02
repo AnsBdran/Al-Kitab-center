@@ -15,7 +15,7 @@ const Link = ({ to, children }) => (
   <li>
     <NavLink
       to={to}
-      className="relative before:absolute before:bg-slate-400 before:h-px before:bottom-0 before:w-3 before:transition-all"
+      className="relative before:absolute before:bg-slate-400 before:h-px before:bottom-0 before:w-3 before:transition-all hover:text-slate-50 hover:before:w-4"
     >
       {children}
     </NavLink>
