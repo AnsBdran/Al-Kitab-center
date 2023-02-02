@@ -1,10 +1,10 @@
 export const Facebook = ({ className }) => (
   <svg
-    className={className}
+    className="{className}"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 48 48"
-    width="96"
-    height="96"
+    width="100%"
+    height="auto"
   >
     <linearGradient
       id="awSgIinfw5_FS5MLHI~A9a"
@@ -14,8 +14,8 @@ export const Facebook = ({ className }) => (
       y2="43.432"
       gradientUnits="userSpaceOnUse"
     >
-      <stop offset="0" stop-color="#0d61a9" />
-      <stop offset="1" stop-color="#16528c" />
+      <stop offset={0} stopColor="#0d61a9" />
+      <stop offset={1} stopColor="#16528c" />
     </linearGradient>
     <path
       fill="url(#awSgIinfw5_FS5MLHI~A9a)"
@@ -41,8 +41,8 @@ export const Instagram = ({ className }) => (
     className={className}
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 48 48"
-    width="96"
-    height="96"
+    width="100%"
+    height="auto"
   >
     <radialGradient
       id="yOrnnhliCrdS2gy~4tD8ma"
@@ -51,13 +51,13 @@ export const Instagram = ({ className }) => (
       r="44.899"
       gradientUnits="userSpaceOnUse"
     >
-      <stop offset="0" stop-color="#fd5" />
-      <stop offset=".328" stop-color="#ff543f" />
-      <stop offset=".348" stop-color="#fc5245" />
-      <stop offset=".504" stop-color="#e64771" />
-      <stop offset=".643" stop-color="#d53e91" />
-      <stop offset=".761" stop-color="#cc39a4" />
-      <stop offset=".841" stop-color="#c837ab" />
+      <stop offset={0} stopColor="#fd5" />
+      <stop offset=".328" stopColor="#ff543f" />
+      <stop offset=".348" stopColor="#fc5245" />
+      <stop offset=".504" stopColor="#e64771" />
+      <stop offset=".643" stopColor="#d53e91" />
+      <stop offset=".761" stopColor="#cc39a4" />
+      <stop offset=".841" stopColor="#c837ab" />
     </radialGradient>
     <path
       fill="url(#yOrnnhliCrdS2gy~4tD8ma)"
@@ -71,8 +71,8 @@ export const Instagram = ({ className }) => (
       gradientTransform="matrix(1 0 0 .6663 0 1.849)"
       gradientUnits="userSpaceOnUse"
     >
-      <stop offset="0" stop-color="#4168c9" />
-      <stop offset=".999" stop-color="#4168c9" stop-opacity="0" />
+      <stop offset={0} stopColor="#4168c9" />
+      <stop offset=".999" stopColor="#4168c9" stopOpacity={0} />
     </radialGradient>
     <path
       fill="url(#yOrnnhliCrdS2gy~4tD8mb)"
@@ -95,8 +95,8 @@ export const Youtube = ({ className }) => (
     className={className}
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 48 48"
-    width="96"
-    height="96"
+    width="100%"
+    height="auto"
   >
     <linearGradient
       id="PgB_UHa29h0TpFV_moJI9a"
@@ -106,9 +106,9 @@ export const Youtube = ({ className }) => (
       y2="41.301"
       gradientUnits="userSpaceOnUse"
     >
-      <stop offset="0" stop-color="#f44f5a" />
-      <stop offset=".443" stop-color="#ee3d4a" />
-      <stop offset="1" stop-color="#e52030" />
+      <stop offset={0} stopColor="#f44f5a" />
+      <stop offset=".443" stopColor="#ee3d4a" />
+      <stop offset={1} stopColor="#e52030" />
     </linearGradient>
     <path
       fill="url(#PgB_UHa29h0TpFV_moJI9a)"
@@ -133,8 +133,8 @@ export const Email = ({ className }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 48 48"
-    width="96"
-    height="96"
+    width="100%"
+    height="auto"
     className={className}
   >
     <linearGradient
@@ -145,8 +145,8 @@ export const Email = ({ className }) => (
       y2="26.715"
       gradientUnits="userSpaceOnUse"
     >
-      <stop offset="0" stop-color="#0078d3" />
-      <stop offset="1" stop-color="#0858a1" />
+      <stop offset={0} stopColor="#0078d3" />
+      <stop offset={1} stopColor="#0858a1" />
     </linearGradient>
     <path
       fill="url(#ih57~iPYXZc1kJhp8CBgEa)"
@@ -154,15 +154,15 @@ export const Email = ({ className }) => (
     />
     <linearGradient
       id="ih57~iPYXZc1kJhp8CBgEb"
-      x1="24"
-      x2="24"
+      x1={24}
+      x2={24}
       y1="13.416"
       y2="27.233"
       gradientUnits="userSpaceOnUse"
     >
-      <stop offset="0" stop-color="#fff" />
-      <stop offset=".24" stop-color="#f8f8f7" />
-      <stop offset="1" stop-color="#e3e3e1" />
+      <stop offset={0} stopColor="#fff" />
+      <stop offset=".24" stopColor="#f8f8f7" />
+      <stop offset={1} stopColor="#e3e3e1" />
     </linearGradient>
     <path
       fill="url(#ih57~iPYXZc1kJhp8CBgEb)"
@@ -170,14 +170,14 @@ export const Email = ({ className }) => (
     />
     <linearGradient
       id="ih57~iPYXZc1kJhp8CBgEc"
-      x1="18"
-      x2="30"
+      x1={18}
+      x2={30}
       y1="22.764"
       y2="22.764"
       gradientUnits="userSpaceOnUse"
     >
-      <stop offset="0" stop-color="#c965eb" />
-      <stop offset="1" stop-color="#c767e5" />
+      <stop offset={0} stopColor="#c965eb" />
+      <stop offset={1} stopColor="#c767e5" />
     </linearGradient>
     <path
       fill="url(#ih57~iPYXZc1kJhp8CBgEc)"
@@ -191,8 +191,8 @@ export const Email = ({ className }) => (
       y2="45.269"
       gradientUnits="userSpaceOnUse"
     >
-      <stop offset="0" stop-color="#3ccbf4" />
-      <stop offset="1" stop-color="#1fa0e5" />
+      <stop offset={0} stopColor="#3ccbf4" />
+      <stop offset={1} stopColor="#1fa0e5" />
     </linearGradient>
     <path
       fill="url(#ih57~iPYXZc1kJhp8CBgEd)"
@@ -206,8 +206,8 @@ export const Email = ({ className }) => (
       y2="45.125"
       gradientUnits="userSpaceOnUse"
     >
-      <stop offset="0" stop-color="#28afea" />
-      <stop offset="1" stop-color="#0b88da" />
+      <stop offset={0} stopColor="#28afea" />
+      <stop offset={1} stopColor="#0b88da" />
     </linearGradient>
     <path
       fill="url(#ih57~iPYXZc1kJhp8CBgEe)"

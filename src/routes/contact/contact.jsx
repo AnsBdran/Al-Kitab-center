@@ -26,9 +26,9 @@ export default function Contact() {
         نسعد باستقبال اقتراحاتِكُم واستفساراتِكُم عبر البريد الإلكتروني التالي:
       </Title>
       <Section>
-        <ContactCard link="mailto:">
-          <Email className="mx-auto" />
-          hello@alkitab.ps
+        <ContactCard link="mailto:" className="">
+          <Email className="" />
+          {/* <span className=""> hello@alkitab.ps</span> */}
         </ContactCard>
       </Section>
       <Title>
@@ -38,9 +38,15 @@ export default function Contact() {
   );
 }
 
-const ContactCard = ({ children, link }) => (
-  <div className="bg-white w-max p-1 md:p-2 rounded-md shadow-xl cursor-pointer hover:bg-slate-100 active:shadow-md active:bg-slate-50 transition-all duration-100">
-    <a href={link} target="_blank">
+const ContactCard = ({ children, link, className }) => (
+  <div
+    className={
+      className +
+      " " +
+      "bg-white  p-1 md:p-2 rounded-md shadow-xl cursor-pointer hover:bg-slate-100 active:shadow-md active:bg-slate-50 transition-all aspect-square duration-100 w-16  sm:w-24"
+    }
+  >
+    <a href={link} target="_blank" className="">
       {children}
     </a>
   </div>
