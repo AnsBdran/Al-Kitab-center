@@ -12,5 +12,5 @@ body {
 }
 
 a.active {
-  @apply text-white before:w-full hover:before:w-full before:bg-white;
+  @apply text-slate-800 before:w-full hover:before:w-full before:bg-slate-800;
 }

@@ -43,7 +43,7 @@ const ContactCard = ({ children, link, className }) => (
     className={
       className +
       " " +
-      "bg-white  p-1 md:p-2 rounded-md shadow-xl cursor-pointer hover:bg-slate-100 active:shadow-md active:bg-slate-50 transition-all aspect-square duration-100 w-16  sm:w-24"
+      "bg-white  p-1 md:p-2 rounded-md shadow-xl cursor-pointer hover:bg-slate-100 active:shadow-md hover:rotate-2 active:bg-slate-50 transition-all aspect-square duration-100 w-16  sm:w-24"
     }
   >
     <a href={link} target="_blank" className="">
